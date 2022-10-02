@@ -15,7 +15,7 @@ function Header({ text, bgColour, textColour }) {
 
 Header.defaultProps = {
   text: 'React Feedback App',
-  bgColour: '#FF8300',
+  bgColour: '#1DA1F2',
   textColour: '#FFFFFF'
 }
 

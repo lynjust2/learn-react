@@ -9,7 +9,7 @@ function Card({ children, darkMode }) {
 
   return (
     // Card component that slots in passed in HTML/jsx
-    <div className='card' style={{ backgroundColor: darkMode ? 'rgba(0,0,0,0.4)' : '#FFFFFF', color: darkMode ? '#FFFFFF' : '#000000'}}>
+    <div className='card' style={{ backgroundColor: darkMode ? '#000000' : '#FFFFFF', color: darkMode ? '#FFFFFF' : '#000000'}}>
       { children }
     </div>
   )
@@ -17,7 +17,7 @@ function Card({ children, darkMode }) {
 
 
 Card.defaultProps = {
-  darkMode: false
+  darkMode: true
 }
 
 Card.propTypes = {
